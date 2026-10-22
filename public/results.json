@@ -1,0 +1,940 @@
+{
+  "data_source": "real",
+  "symbol": "BTCUSDT",
+  "candles": 8760,
+  "generated_at": "2026-10-22T22:55:06.877320+00:00",
+  "settings": {
+    "is_days": 45,
+    "oos_days": 15,
+    "step_days": 15,
+    "start_equity": 30.0,
+    "fee_per_side": 0.001
+  },
+  "strategies": {
+    "meanrev": {
+      "folds": [
+        {
+          "is_start": "2025-10-22",
+          "is_end": "2025-12-06",
+          "oos_start": "2025-12-06",
+          "oos_end": "2025-12-21",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.05
+          },
+          "is_return_pct": -4.480143490754496,
+          "is_trades": 10,
+          "oos_return_pct": 1.4376576749137282,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2025-11-06",
+          "is_end": "2025-12-21",
+          "oos_start": "2025-12-21",
+          "oos_end": "2026-01-05",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.05
+          },
+          "is_return_pct": 2.197989173270609,
+          "is_trades": 10,
+          "oos_return_pct": 0.927728280574569,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2025-11-21",
+          "is_end": "2026-01-05",
+          "oos_start": "2026-01-05",
+          "oos_end": "2026-01-20",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05
+          },
+          "is_return_pct": 8.826153223549028,
+          "is_trades": 4,
+          "oos_return_pct": -3.6430340796112404,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2025-12-06",
+          "is_end": "2026-01-20",
+          "oos_start": "2026-01-20",
+          "oos_end": "2026-02-04",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05
+          },
+          "is_return_pct": 2.180451923140425,
+          "is_trades": 4,
+          "oos_return_pct": -12.22000108131388,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2025-12-21",
+          "is_end": "2026-02-04",
+          "oos_start": "2026-02-04",
+          "oos_end": "2026-02-19",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.03
+          },
+          "is_return_pct": -5.257824110643227,
+          "is_trades": 8,
+          "oos_return_pct": -2.916021245542677,
+          "oos_trades": 3
+        },
+        {
+          "is_start": "2026-01-05",
+          "is_end": "2026-02-19",
+          "oos_start": "2026-02-19",
+          "oos_end": "2026-03-06",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.03
+          },
+          "is_return_pct": -5.684217585561457,
+          "is_trades": 14,
+          "oos_return_pct": -2.022910585051896,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2026-01-20",
+          "is_end": "2026-03-06",
+          "oos_start": "2026-03-06",
+          "oos_end": "2026-03-21",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.05
+          },
+          "is_return_pct": -1.9642802875902587,
+          "is_trades": 12,
+          "oos_return_pct": 0.1409626262025121,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-02-04",
+          "is_end": "2026-03-21",
+          "oos_start": "2026-03-21",
+          "oos_end": "2026-04-05",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.05
+          },
+          "is_return_pct": 1.9694193595583664,
+          "is_trades": 7,
+          "oos_return_pct": 1.4580370852887548,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-02-19",
+          "is_end": "2026-04-05",
+          "oos_start": "2026-04-05",
+          "oos_end": "2026-04-20",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05
+          },
+          "is_return_pct": 6.458782168956878,
+          "is_trades": 6,
+          "oos_return_pct": 2.415624523145987,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-03-06",
+          "is_end": "2026-04-20",
+          "oos_start": "2026-04-20",
+          "oos_end": "2026-05-05",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04
+          },
+          "is_return_pct": 7.791943346950947,
+          "is_trades": 5,
+          "oos_return_pct": 1.4493000589571148,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-03-21",
+          "is_end": "2026-05-05",
+          "oos_start": "2026-05-05",
+          "oos_end": "2026-05-20",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04
+          },
+          "is_return_pct": 11.913694501917016,
+          "is_trades": 5,
+          "oos_return_pct": -1.5614390009524137,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-04-05",
+          "is_end": "2026-05-20",
+          "oos_start": "2026-05-20",
+          "oos_end": "2026-06-04",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.03
+          },
+          "is_return_pct": 5.982944702815751,
+          "is_trades": 5,
+          "oos_return_pct": -9.556718832345156,
+          "oos_trades": 5
+        },
+        {
+          "is_start": "2026-04-20",
+          "is_end": "2026-06-04",
+          "oos_start": "2026-06-04",
+          "oos_end": "2026-06-19",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.04
+          },
+          "is_return_pct": -6.3251462399866565,
+          "is_trades": 5,
+          "oos_return_pct": 2.2370625844570613,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2026-05-05",
+          "is_end": "2026-06-19",
+          "oos_start": "2026-06-19",
+          "oos_end": "2026-07-04",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.04
+          },
+          "is_return_pct": -7.504538067663191,
+          "is_trades": 10,
+          "oos_return_pct": -3.275648038369483,
+          "oos_trades": 4
+        },
+        {
+          "is_start": "2026-05-20",
+          "is_end": "2026-07-04",
+          "oos_start": "2026-07-04",
+          "oos_end": "2026-07-19",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.06
+          },
+          "is_return_pct": -4.380315114279765,
+          "is_trades": 5,
+          "oos_return_pct": 6.026301492769459,
+          "oos_trades": 4
+        },
+        {
+          "is_start": "2026-06-04",
+          "is_end": "2026-07-19",
+          "oos_start": "2026-07-19",
+          "oos_end": "2026-08-03",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.06
+          },
+          "is_return_pct": 16.523297712494923,
+          "is_trades": 8,
+          "oos_return_pct": -0.32576149707777,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-06-19",
+          "is_end": "2026-08-03",
+          "oos_start": "2026-08-03",
+          "oos_end": "2026-08-18",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.06
+          },
+          "is_return_pct": 11.032150434537025,
+          "is_trades": 6,
+          "oos_return_pct": 0.20946815077265146,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-07-04",
+          "is_end": "2026-08-18",
+          "oos_start": "2026-08-18",
+          "oos_end": "2026-09-02",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.03
+          },
+          "is_return_pct": 7.368666857107464,
+          "is_trades": 4,
+          "oos_return_pct": -0.5344391893090772,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-07-19",
+          "is_end": "2026-09-02",
+          "oos_start": "2026-09-02",
+          "oos_end": "2026-09-17",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.03
+          },
+          "is_return_pct": 3.3382020822904312,
+          "is_trades": 3,
+          "oos_return_pct": -1.3077639223192827,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-08-03",
+          "is_end": "2026-09-17",
+          "oos_start": "2026-09-17",
+          "oos_end": "2026-10-02",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.03
+          },
+          "is_return_pct": 1.604918102338737,
+          "is_trades": 3,
+          "oos_return_pct": 1.150373010974648,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-08-18",
+          "is_end": "2026-10-02",
+          "oos_start": "2026-10-02",
+          "oos_end": "2026-10-17",
+          "params": {
+            "tp": 0.015,
+            "sl": 0.03
+          },
+          "is_return_pct": 6.345596181638369,
+          "is_trades": 4,
+          "oos_return_pct": 1.7332328674871222,
+          "oos_trades": 2
+        }
+      ],
+      "aggregate": {
+        "folds": 21,
+        "total_oos_trades": 33,
+        "oos_win_rate": 75.75757575757575,
+        "chained_net_return_pct": -18.106185368685047,
+        "chained_max_drawdown_pct": 25.22609943799312
+      }
+    },
+    "trend": {
+      "folds": [
+        {
+          "is_start": "2025-10-22",
+          "is_end": "2025-12-06",
+          "oos_start": "2025-12-06",
+          "oos_end": "2025-12-21",
+          "params": {
+            "atr_mult": 2.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -1.9292132159981157,
+          "is_trades": 10,
+          "oos_return_pct": -9.388910893084311,
+          "oos_trades": 7
+        },
+        {
+          "is_start": "2025-11-06",
+          "is_end": "2025-12-21",
+          "oos_start": "2025-12-21",
+          "oos_end": "2026-01-05",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -9.804705344528541,
+          "is_trades": 15,
+          "oos_return_pct": 0.4379723415231851,
+          "oos_trades": 5
+        },
+        {
+          "is_start": "2025-11-21",
+          "is_end": "2026-01-05",
+          "oos_start": "2026-01-05",
+          "oos_end": "2026-01-20",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -8.455344326037896,
+          "is_trades": 18,
+          "oos_return_pct": -4.659465623981685,
+          "oos_trades": 5
+        },
+        {
+          "is_start": "2025-12-06",
+          "is_end": "2026-01-20",
+          "oos_start": "2026-01-20",
+          "oos_end": "2026-02-04",
+          "params": {
+            "atr_mult": 2.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -8.441523017001817,
+          "is_trades": 18,
+          "oos_return_pct": -1.2893281653344024,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2025-12-21",
+          "is_end": "2026-02-04",
+          "oos_start": "2026-02-04",
+          "oos_end": "2026-02-19",
+          "params": {
+            "atr_mult": 2.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 0.2723562355685605,
+          "is_trades": 11,
+          "oos_return_pct": -3.9116548069714097,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2026-01-05",
+          "is_end": "2026-02-19",
+          "oos_start": "2026-02-19",
+          "oos_end": "2026-03-06",
+          "params": {
+            "atr_mult": 2.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -5.782087347414011,
+          "is_trades": 8,
+          "oos_return_pct": -1.3317948391163736,
+          "oos_trades": 7
+        },
+        {
+          "is_start": "2026-01-20",
+          "is_end": "2026-03-06",
+          "oos_start": "2026-03-06",
+          "oos_end": "2026-03-21",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -3.0954394037895128,
+          "is_trades": 10,
+          "oos_return_pct": 1.6159277802160865,
+          "oos_trades": 6
+        },
+        {
+          "is_start": "2026-02-04",
+          "is_end": "2026-03-21",
+          "oos_start": "2026-03-21",
+          "oos_end": "2026-04-05",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -0.2433409873726089,
+          "is_trades": 15,
+          "oos_return_pct": -2.0932106764975478,
+          "oos_trades": 5
+        },
+        {
+          "is_start": "2026-02-19",
+          "is_end": "2026-04-05",
+          "oos_start": "2026-04-05",
+          "oos_end": "2026-04-20",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 1.6445249207433177,
+          "is_trades": 18,
+          "oos_return_pct": 1.0279800300129205,
+          "oos_trades": 6
+        },
+        {
+          "is_start": "2026-03-06",
+          "is_end": "2026-04-20",
+          "oos_start": "2026-04-20",
+          "oos_end": "2026-05-05",
+          "params": {
+            "atr_mult": 2.0,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 4.179363655478796,
+          "is_trades": 18,
+          "oos_return_pct": -0.20266205672871962,
+          "oos_trades": 6
+        },
+        {
+          "is_start": "2026-03-21",
+          "is_end": "2026-05-05",
+          "oos_start": "2026-05-05",
+          "oos_end": "2026-05-20",
+          "params": {
+            "atr_mult": 2.0,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 1.898433928414489,
+          "is_trades": 19,
+          "oos_return_pct": -2.0474916811152766,
+          "oos_trades": 3
+        },
+        {
+          "is_start": "2026-04-05",
+          "is_end": "2026-05-20",
+          "oos_start": "2026-05-20",
+          "oos_end": "2026-06-04",
+          "params": {
+            "atr_mult": 2.0,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 1.6530616646787788,
+          "is_trades": 17,
+          "oos_return_pct": -2.0196692326378995,
+          "oos_trades": 4
+        },
+        {
+          "is_start": "2026-04-20",
+          "is_end": "2026-06-04",
+          "oos_start": "2026-06-04",
+          "oos_end": "2026-06-19",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -3.033578236964718,
+          "is_trades": 14,
+          "oos_return_pct": -0.4627824940069525,
+          "oos_trades": 3
+        },
+        {
+          "is_start": "2026-05-05",
+          "is_end": "2026-06-19",
+          "oos_start": "2026-06-19",
+          "oos_end": "2026-07-04",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -3.289578644124269,
+          "is_trades": 10,
+          "oos_return_pct": -1.0819689464601323,
+          "oos_trades": 3
+        },
+        {
+          "is_start": "2026-05-20",
+          "is_end": "2026-07-04",
+          "oos_start": "2026-07-04",
+          "oos_end": "2026-07-19",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -3.216157365556027,
+          "is_trades": 10,
+          "oos_return_pct": -0.7903404628647248,
+          "oos_trades": 6
+        },
+        {
+          "is_start": "2026-06-04",
+          "is_end": "2026-07-19",
+          "oos_start": "2026-07-19",
+          "oos_end": "2026-08-03",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -2.317915518406577,
+          "is_trades": 12,
+          "oos_return_pct": -1.3825953221138443,
+          "oos_trades": 4
+        },
+        {
+          "is_start": "2026-06-19",
+          "is_end": "2026-08-03",
+          "oos_start": "2026-08-03",
+          "oos_end": "2026-08-18",
+          "params": {
+            "atr_mult": 1.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -4.043103267750336,
+          "is_trades": 14,
+          "oos_return_pct": -1.0417975732580187,
+          "oos_trades": 3
+        },
+        {
+          "is_start": "2026-07-04",
+          "is_end": "2026-08-18",
+          "oos_start": "2026-08-18",
+          "oos_end": "2026-09-02",
+          "params": {
+            "atr_mult": 2.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": -2.3529035084702388,
+          "is_trades": 14,
+          "oos_return_pct": 16.545436591286776,
+          "oos_trades": 6
+        },
+        {
+          "is_start": "2026-07-19",
+          "is_end": "2026-09-02",
+          "oos_start": "2026-09-02",
+          "oos_end": "2026-09-17",
+          "params": {
+            "atr_mult": 2.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 16.459541676778898,
+          "is_trades": 14,
+          "oos_return_pct": -2.0986325087739233,
+          "oos_trades": 6
+        },
+        {
+          "is_start": "2026-08-03",
+          "is_end": "2026-09-17",
+          "oos_start": "2026-09-17",
+          "oos_end": "2026-10-02",
+          "params": {
+            "atr_mult": 2.5,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 14.783610494077992,
+          "is_trades": 15,
+          "oos_return_pct": 0.7144293167484994,
+          "oos_trades": 10
+        },
+        {
+          "is_start": "2026-08-18",
+          "is_end": "2026-10-02",
+          "oos_start": "2026-10-02",
+          "oos_end": "2026-10-17",
+          "params": {
+            "atr_mult": 2.0,
+            "hard_sl": 0.04
+          },
+          "is_return_pct": 17.642967239823882,
+          "is_trades": 22,
+          "oos_return_pct": -1.8276717415731336,
+          "oos_trades": 4
+        }
+      ],
+      "aggregate": {
+        "folds": 21,
+        "total_oos_trades": 102,
+        "oos_win_rate": 26.47058823529412,
+        "chained_net_return_pct": -15.929485048886749,
+        "chained_max_drawdown_pct": 25.478963070638926
+      }
+    },
+    "combo": {
+      "folds": [
+        {
+          "is_start": "2025-10-22",
+          "is_end": "2025-12-06",
+          "oos_start": "2025-12-06",
+          "oos_end": "2025-12-21",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -12.13675705981425,
+          "is_trades": 5,
+          "oos_return_pct": 1.3677574160319894,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2025-11-06",
+          "is_end": "2025-12-21",
+          "oos_start": "2025-12-21",
+          "oos_end": "2026-01-05",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -5.231612246550521,
+          "is_trades": 5,
+          "oos_return_pct": 0.0,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2025-11-21",
+          "is_end": "2026-01-05",
+          "oos_start": "2026-01-05",
+          "oos_end": "2026-01-20",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 6.579169804173146,
+          "is_trades": 3,
+          "oos_return_pct": -3.2293395514774725,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2025-12-06",
+          "is_end": "2026-01-20",
+          "oos_start": "2026-01-20",
+          "oos_end": "2026-02-04",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 0.7287649204196889,
+          "is_trades": 3,
+          "oos_return_pct": -11.378698165768142,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2025-12-21",
+          "is_end": "2026-02-04",
+          "oos_start": "2026-02-04",
+          "oos_end": "2026-02-19",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -5.950019196686385,
+          "is_trades": 6,
+          "oos_return_pct": 2.031231943764955,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2026-01-05",
+          "is_end": "2026-02-19",
+          "oos_start": "2026-02-19",
+          "oos_end": "2026-03-06",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -8.566484800972606,
+          "is_trades": 8,
+          "oos_return_pct": -3.094433487517678,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2026-01-20",
+          "is_end": "2026-03-06",
+          "oos_start": "2026-03-06",
+          "oos_end": "2026-03-21",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.05,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -3.929536392925348,
+          "is_trades": 9,
+          "oos_return_pct": 0.019087599955924794,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-02-04",
+          "is_end": "2026-03-21",
+          "oos_start": "2026-03-21",
+          "oos_end": "2026-04-05",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.05,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 8.669756915440141,
+          "is_trades": 6,
+          "oos_return_pct": 0.40014436402964204,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-02-19",
+          "is_end": "2026-04-05",
+          "oos_start": "2026-04-05",
+          "oos_end": "2026-04-20",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.05,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 4.811811229744034,
+          "is_trades": 5,
+          "oos_return_pct": 2.415624523145987,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-03-06",
+          "is_end": "2026-04-20",
+          "oos_start": "2026-04-20",
+          "oos_end": "2026-05-05",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 6.159854726028957,
+          "is_trades": 5,
+          "oos_return_pct": 1.4493000589571148,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-03-21",
+          "is_end": "2026-05-05",
+          "oos_start": "2026-05-05",
+          "oos_end": "2026-05-20",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 10.173289920235762,
+          "is_trades": 4,
+          "oos_return_pct": -1.6276935203386689,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-04-05",
+          "is_end": "2026-05-20",
+          "oos_start": "2026-05-20",
+          "oos_end": "2026-06-04",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 5.982944702815751,
+          "is_trades": 5,
+          "oos_return_pct": -4.749266815446407,
+          "oos_trades": 1
+        },
+        {
+          "is_start": "2026-04-20",
+          "is_end": "2026-06-04",
+          "oos_start": "2026-06-04",
+          "oos_end": "2026-06-19",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -4.918213206451183,
+          "is_trades": 5,
+          "oos_return_pct": 1.7394066374733175,
+          "oos_trades": 2
+        },
+        {
+          "is_start": "2026-05-05",
+          "is_end": "2026-06-19",
+          "oos_start": "2026-06-19",
+          "oos_end": "2026-07-04",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -3.8827052492901304,
+          "is_trades": 6,
+          "oos_return_pct": -2.3155501929295386,
+          "oos_trades": 4
+        },
+        {
+          "is_start": "2026-05-20",
+          "is_end": "2026-07-04",
+          "oos_start": "2026-07-04",
+          "oos_end": "2026-07-19",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": -1.5106689153735142,
+          "is_trades": 7,
+          "oos_return_pct": 4.461102378931736,
+          "oos_trades": 3
+        },
+        {
+          "is_start": "2026-06-04",
+          "is_end": "2026-07-19",
+          "oos_start": "2026-07-19",
+          "oos_end": "2026-08-03",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 7.726135339486717,
+          "is_trades": 9,
+          "oos_return_pct": -0.32576149707777,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-06-19",
+          "is_end": "2026-08-03",
+          "oos_start": "2026-08-03",
+          "oos_end": "2026-08-18",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 3.151661255824245,
+          "is_trades": 7,
+          "oos_return_pct": 0.20946815077265146,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-07-04",
+          "is_end": "2026-08-18",
+          "oos_start": "2026-08-18",
+          "oos_end": "2026-09-02",
+          "params": {
+            "tp": 0.03,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 5.783651253878608,
+          "is_trades": 3,
+          "oos_return_pct": -0.5344391893090772,
+          "oos_trades": 0
+        },
+        {
+          "is_start": "2026-08-18",
+          "is_end": "2026-10-02",
+          "oos_start": "2026-10-02",
+          "oos_end": "2026-10-17",
+          "params": {
+            "tp": 0.02,
+            "sl": 0.04,
+            "atr_mult": 2.0,
+            "hard_sl": 0.06
+          },
+          "is_return_pct": 6.241651481667798,
+          "is_trades": 3,
+          "oos_return_pct": -1.7007933978540501,
+          "oos_trades": 0
+        }
+      ],
+      "aggregate": {
+        "folds": 19,
+        "total_oos_trades": 21,
+        "oos_win_rate": 76.19047619047619,
+        "chained_net_return_pct": -14.803672215164953,
+        "chained_max_drawdown_pct": 17.614268754058028
+      }
+    }
+  }
+}
